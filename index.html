@@ -11,31 +11,32 @@
     <div class="container">
       <h1>Meet with Me!</h1>
       <p>d ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-      <form class="name">
+      <form id="name">
         <div class="form-group">
           <label for="name1">Name:</label>
           <input id="name1" class="form-control" type="text">
         </div>
       </form>
-      <form class="date">
+      <form id="date">
         <div class="form-group">
           <label for="date1">Desired Date:</label>
           <input id="date1" class="form-control" type="text">
         </div>
       </form>
-      <form class="start-time">
+      <form id="start-time">
         <div class="form-group">
           <label for="start">Start Time:</label>
           <input id="start" class="form-control" type="text">
         </div>
       </form>
-      <form class="end-time">
+      <form id="end-time">
         <div class="form-group">
           <label for="end">End Time:</label>
           <input id="end" class="form-control" type="text">
         </div>
       </form>
-      <div class="output">
+      <div class="well">
+        <p>Thank you <span id="output-name"></span> for making an appointment with me! I look forward to seeing you at <span id="output-start"></span> on <span id="output-date"></span>. The appointment shouldn't last too long. We will hopefully be done by <span id="output-end"></span>. Thank you!!</p>
       </div>
     </div>
   </body>
